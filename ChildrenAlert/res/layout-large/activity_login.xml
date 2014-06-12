@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="contoh1.example.MainActivity"
+    tools:ignore="MergeRootFrame" >
+	
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#DDDFE0" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="28dip"
+            android:layout_marginTop="380dip"
+            android:fontFamily="sans-serif"
+            android:text="Silahkan membuat akun dengan klik daftar, hubungkan device anak anda dengan klik hubung"
+            android:textColor="#6A6B6B"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnJoin"
+            android:layout_width="420dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/latar2"
+            android:fontFamily="sans-serif"
+            android:text="Hubung"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDaftar"
+            android:layout_width="420dip"
+            android:layout_marginBottom="5dip"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnJoin"
+            android:layout_alignLeft="@+id/btnJoin"
+            android:background="@drawable/latar"
+            android:fontFamily="sans-serif"
+            android:text="Daftar"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+	</RelativeLayout>
+
+	<ImageView
+	    android:id="@+id/imageView"
+	    android:layout_width="180dip"
+	    android:layout_height="240dip"
+	    android:layout_marginTop="120dip"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:src="@drawable/splash" />
+	
+</RelativeLayout>

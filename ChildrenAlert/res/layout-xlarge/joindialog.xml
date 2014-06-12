@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='fill_parent'
+    android:layout_height='fill_parent'
+    android:orientation='vertical'
+    android:padding='10sp' >
+
+    <EditText
+        android:id='@+id/txtKodeName'
+        android:layout_width='fill_parent'
+        android:layout_height='wrap_content'
+        android:hint='Kode'
+        android:singleLine='true' >
+
+        <requestFocus />
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content' >
+
+        <Button
+            android:id='@+id/btn_join'
+            android:layout_width='120dp'
+            android:layout_height='wrap_content'
+            android:text='Hubung'
+            android:background="@drawable/latar"
+            android:textColor="#ffffff"
+    		android:fontFamily="sans-serif"
+    		android:textStyle="bold" />
+
+        <Button
+            android:id='@+id/btn_cancel'
+            android:layout_width='120dp'
+            android:layout_height='wrap_content'
+            android:layout_alignParentTop='true'
+            android:layout_marginLeft='10dp'
+            android:background="@drawable/latar2"
+            android:layout_toRightOf='@+id/btn_join'
+            android:text='Keluar'
+            android:textColor="#000000"
+    		android:fontFamily="sans-serif"
+    		android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

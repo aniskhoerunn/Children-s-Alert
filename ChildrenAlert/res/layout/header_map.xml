@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/header" 
+    android:background="#FFFFFF">
+    
+    <Button
+        android:id="@+id/btnAkun"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/akun" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAkun"
+        android:layout_alignBottom="@+id/btnAkun"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/btnAkun"
+        android:fontFamily="Roboto"
+        android:text="Profil"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    
+    <Button
+        android:id="@+id/btnOff"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_above="@+id/map"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@drawable/off" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/btnOff"
+        android:fontFamily="Roboto"
+        android:text="Matikan"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    
+</RelativeLayout>

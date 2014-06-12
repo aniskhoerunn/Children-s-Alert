@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='fill_parent'
+    android:layout_height='fill_parent'
+    android:orientation='vertical'
+    android:padding='10sp' >
+    
+    <TextView 
+        android:layout_width="260dip"
+        android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+    		android:fontFamily="Roboto"
+    		android:textStyle="bold"
+        android:text="Hati-hati, jangan jauh-jauh dari ibumu!"/>
+        
+    <RelativeLayout
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content' >
+
+        <Button
+            android:id="@+id/btn_off"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/latar"
+            android:fontFamily="Roboto"
+            android:text="Matikan"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

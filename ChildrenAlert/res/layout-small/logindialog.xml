@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='fill_parent'
+    android:layout_height='fill_parent'
+    android:orientation='vertical'
+    android:padding='10sp' >
+
+    <EditText
+        android:id='@+id/txtUsername'
+        android:layout_width='fill_parent'
+        android:layout_height='wrap_content'
+        android:hint='Nama'
+        android:singleLine='true' >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id='@+id/txtPassword'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Password'
+        android:ems='10'
+        android:inputType='textPassword' >
+    </EditText>
+    
+    <EditText
+        android:id='@+id/txtPhone'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Ho HP'
+        android:ems='10'
+        android:inputType='textPassword' >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content' >
+
+        <Button
+            android:id='@+id/btn_login'
+            android:layout_width='120dp'
+            android:layout_height='wrap_content'
+            android:text='Daftar'
+            android:background="@drawable/latar"
+            android:textColor="#ffffff"
+    		android:fontFamily="sans-serif"
+    		android:textStyle="bold" />
+
+        <Button
+            android:id='@+id/btn_cancel'
+            android:layout_width='120dp'
+            android:layout_height='wrap_content'
+            android:layout_alignParentTop='true'
+            android:layout_marginLeft='10dp'
+            android:background="@drawable/latar2"
+            android:layout_toRightOf='@+id/btn_login'
+            android:text='Keluar'
+            android:textColor="#000000"
+    		android:fontFamily="sans-serif"
+    		android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

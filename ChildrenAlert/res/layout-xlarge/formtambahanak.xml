@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='fill_parent'
+    android:layout_height='fill_parent'
+    android:orientation='vertical'
+    android:padding='10sp' >
+
+    <EditText
+        android:id='@+id/txtKdAnak'
+        android:layout_width='fill_parent'
+        android:layout_height='wrap_content'
+        android:hint='Kode Anak'
+        android:singleLine='true' >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id='@+id/txtNmAnak'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Nama'
+        android:ems='10'
+        android:inputType='textPassword' >
+    </EditText>
+    
+    <RelativeLayout
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content' >
+
+        <Button
+            android:id='@+id/btnTambah'
+            android:layout_width='120dp'
+            android:layout_height='wrap_content'
+            android:text='Simpan'
+            android:background="@drawable/latar"
+            android:textColor="#ffffff"
+    		android:fontFamily="sans-serif"
+    		android:textStyle="bold" />
+
+        <Button
+            android:id='@+id/btn_cancel'
+            android:layout_width='120dp'
+            android:layout_height='wrap_content'
+            android:layout_alignParentTop='true'
+            android:layout_marginLeft='10dp'
+            android:background="@drawable/latar2"
+            android:layout_toRightOf='@+id/btnTambah'
+            android:text='Batal'
+            android:textColor="#000000"
+    		android:fontFamily="sans-serif"
+    		android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="contoh1.example.MainActivity"
+    tools:ignore="MergeRootFrame" >
+	
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#DDDFE0" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="28dip"
+            android:layout_marginTop="280dip"
+            android:fontFamily="sans-serif"
+            android:text="Silahkan membuat akun dengan klik daftar, hubungkan device anak anda dengan klik hubung"
+            android:textColor="#6A6B6B"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+	</RelativeLayout>
+    
+	<Button
+	    android:layout_width="280dip"
+	    android:layout_marginTop="370dip"
+	    android:layout_marginLeft="20dip"
+	    android:id="@+id/btnDaftar"
+	    android:layout_height="wrap_content"
+   		android:background="@drawable/latar"
+        android:layout_gravity="center"
+    	android:text="Daftar"
+    	android:textColor="#ffffff"
+    	android:fontFamily="sans-serif"
+    	android:textStyle="bold" />
+	
+	<Button
+	    android:layout_width="280dip"
+	    android:layout_marginTop="412dip"
+	    android:layout_marginLeft="20dip"
+	    android:id="@+id/btnJoin"
+	    android:layout_height="wrap_content"
+   		android:background="@drawable/latar2"
+        android:layout_gravity="center"
+    	android:text="Hubung"
+    	android:textColor="#000000"
+    	android:fontFamily="sans-serif"
+    	android:textStyle="bold" />
+
+	<ImageView
+	    android:id="@+id/imageView"
+	    android:layout_width="180dip"
+	    android:layout_height="240dip"
+	    android:layout_marginTop="20dip"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:src="@drawable/splash" />
+	
+</RelativeLayout>
